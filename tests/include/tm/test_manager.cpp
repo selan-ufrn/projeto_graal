@@ -57,15 +57,15 @@ void TestManager::summary(void) const
     std::cout << "[===========] " << n_tests << " tests from the \"" << test_suite_name << "\" test suite ran.\n";
 
     // Final summary
-    if ( n_successful != 0 ) std::cout << "[ "<< "\e[1;32mPASSED\e[0m"    << "    ] " << n_successful << " tests.\n";
-    if ( n_failed != 0 )     std::cout << "[ "<< "\e[1;31mFAILED\e[0m"    << "    ] " << n_failed     << " tests.\n";
+    if ( n_successful != 0 ) std::cout << "[ "<< "\33[1;32mPASSED\33[0m"    << "    ] " << n_successful << " tests.\n";
+    if ( n_failed != 0 )     std::cout << "[ "<< "\33[1;31mFAILED\33[0m"    << "    ] " << n_failed     << " tests.\n";
     // TODO: List here the names of the tests that have failed 
     /*
      * [ FAILED ] 2 tests, listed below:
      * [ FAILED ] test_name_1_goes_here.
      * [ FAILED ] test_name_1_goes_here.
      */
-    if ( n_disabled != 0 )   std::cout << "[ "<< "\e[1;36mDISABLED\e[0m"  << "  ] "   << n_disabled   << " tests.\n";
+    if ( n_disabled != 0 )   std::cout << "[ "<< "\33[1;36mDISABLED\33[0m"  << "  ] "   << n_disabled   << " tests.\n";
     // TODO: List here the names of the tests that have failed 
-    if ( n_undefined != 0 )  std::cout << "[ "<< "\e[1;35mUNDEFINED\e[0m" << " ] "    << n_undefined  << " tests.\n";
+    if ( n_undefined != 0 )  std::cout << "[ "<< "\33[1;35mUNDEFINED\33[0m" << " ] "    << n_undefined  << " tests.\n";
 }
