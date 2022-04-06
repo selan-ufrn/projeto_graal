@@ -81,7 +81,7 @@ mkdir -p build
 ```
 para criar a pasta `build` onde o executável será gerado, e
 ```
-g++ -Wall -std=c++17 -pedantic tests/include/tm/test_manager.cpp tests/main.cpp -I include -I tests/include/tm -o build/run_tests
+g++ -Wall -std=c++17 -pedantic tests/include/tm/test_manager.cpp tests/main.cpp -I include -I tests/include/tm -o build/all_tests
 ```
 para compilar e gerar o executável em `build`.
 
