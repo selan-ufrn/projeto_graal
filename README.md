@@ -87,7 +87,7 @@ para compilar e gerar o executável em `build`.
 
 O executável será gerado na pasta `build`, bastando executá-lo depois, como explicado acima.
 
-# Considerações Finais
+# Avaliação do Trabalho
 
 Não esqueça de incluir comentários no formato **Doxygen** para cada uma das funções, bem como comentários regulares informativos dentro do corpo da função.
 
