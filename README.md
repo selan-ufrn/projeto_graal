@@ -21,7 +21,7 @@ Segue abaixo a árvore de diretórios do projeto, para facilitar a visualizaçã
 
 ```
 .
-├── autor.md    <---------- VOCÊ DEVE INCLUIR SEU NOME NESSE ARQUIVO.
+├── author.md    <---------- VOCÊ DEVE INCLUIR SEU NOME NESSE ARQUIVO.
 ├── CMakeLists.txt
 ├── docs
 │   └── lista_template.pdf
