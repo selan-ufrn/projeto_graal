@@ -601,7 +601,7 @@ int main ( void )
         std::set_intersection( std::begin(A), std::end(A),
                 std::begin(A_E), std::end(A_E),
                 std::back_inserter(v_intersection));
-        EXPECT_EQ( std::distance(std::begin(A), std::end(A) ), v_intersection.size() );
+        EXPECT_EQ( (size_t) std::distance(std::begin(A), std::end(A) ), v_intersection.size() );
     }
 
     {
@@ -642,7 +642,8 @@ int main ( void )
         std::set_intersection( std::begin(A), std::end(A),
                 std::begin(A_E), std::end(A_E),
                 std::back_inserter(v_intersection));
-        EXPECT_EQ( std::distance(std::begin(A), std::end(A) ), v_intersection.size() );
+        EXPECT_EQ( (size_t) std::distance(std::begin(A), std::end(A) ),
+                   v_intersection.size() );
     }
 
 
