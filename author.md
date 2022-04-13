@@ -19,5 +19,5 @@ Preencha os dados abaixo para identificar a autoria do trabalho.
 - [ ] unique
 - [ ] partition
 
----------
+--------
 &copy; DIMAp/UFRN 2022.
